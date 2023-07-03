@@ -1,0 +1,134 @@
+.blogdetails__img img{
+    width: 100%;
+}
+.para__blogdetails{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 24px 35px 24px 30px;
+    background-color: white;
+    box-shadow:-20.84px 21.58px 30px 0px rgb(176 176 176 / 10%);;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+.blog__item1 .blogitem1__img{
+    width: 100%;
+}
+.nav__bar__blog{
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+.nav__bar__blog .row .col-lg-6{
+    margin: 0;
+}
+.link__img{
+    position: relative;
+    margin-right: 20px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+.row .col-lg-6:hover .link__img img{
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0.5;
+}
+.arrow__blog{
+    position: absolute;
+}
+.arrow__blog a i{
+    color: #fff;
+    margin:23px 0 0 23px;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+    font-weight: 600;
+}
+.row .col-lg-6:hover .arrow__blog a i{
+    opacity: 1;
+}
+.link__text p{
+    margin: 0;
+}
+.link__text a h4{
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+}
+.link__img__left{
+    margin-left: 20px;
+    margin-right: 0;
+}
+.colum-end{
+    justify-content: end;
+}
+   
+.arrow__left{
+    position: absolute;
+    margin-top: 23px;
+    margin-right: 23px;
+    transition: all 0.4s ease 0s;
+    font-weight: 600;
+    z-index: 9999;
+}
+.arrow__left a i{
+    color: #fff;
+    opacity: 0;
+}
+.row .col-lg-6:hover .arrow__left a i{
+    opacity: 1;
+}
+.comment__blog{
+    background: #fafaff;
+    border: 1px solid #eee;
+    padding: 50px 30px;
+    margin-top: 50px;
+}
+.comment__blog h4{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #222222;
+    font-size: 18px;
+}
+.comment__lists{
+    padding-bottom: 48px;
+}
+.commetter1{
+    margin-right: 20px;
+}
+.commetter1__text h5 a{
+    font-size: 16px;
+    color: #222222;
+    font-weight: 100;
+}
+.commetter1__text .date{
+    font-size: 13px;
+    color: #cccccc;
+    margin-bottom: 13px;
+}
+.replay__btn{
+    background-color: #fff;
+    color: #222222;
+    border: 1px solid #eee;
+    padding: 2px 18px;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    transition: all 0.4s ease 0s;
+    text-transform: uppercase;
+}
+.replay__btn:hover{
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    color: #fff;
+    border: transparent;
+}
+.form-control{
+    border: 1px solid transparent;
+    outline: none;
+    padding: 8px 20px;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+textarea{
+    width: 100%;
+    height: 140px;
+}

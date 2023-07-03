@@ -1,0 +1,60 @@
+.map{
+    position: relative;
+    overflow: hidden;
+}
+.map iframe{
+    height: 420px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+.contact__info1{
+    position: relative;
+    padding-left: 45px;
+}
+.contact__info1 span i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact__info1 h6 a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    font-weight: bold;
+    margin: 0;
+}
+.contact__info1 p{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 2px 0px;
+}
+.form__contact .col {
+margin: 0;
+padding: 0;
+}
+.form-control1{
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+}
+.text__area{
+    height: 134px;
+}
+.contact__btn{
+    text-align: end;
+}
+.contact__btn a{
+    box-shadow: 0px 10px 30px rgb(130 82 250 / 20%);
+}
+.contact__btn a span{
+    color: #fff;
+}
+.contact__btn a:hover span{
+    color: #222;
+}

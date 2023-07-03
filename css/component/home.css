@@ -1,0 +1,26 @@
+.home {
+    background-image: url(../../img/home-banner.png.webp);
+    position: relative;
+    background-position: right center;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home__heading {
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.home__text {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.home__img{
+    padding-top: 214px;
+    padding-bottom: 142px;
+}

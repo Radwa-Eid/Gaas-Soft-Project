@@ -1,0 +1,41 @@
+.features{
+    padding: 120px 0;
+}
+.features__text{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.features__text .uppertittle{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.features__heading{
+    font-size: 36px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.features .card{
+    border: none;
+}
+.features__list .card-body{
+    margin:0;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+.features .card-body .card-title{
+    margin-bottom: 15px;
+    position: relative;
+}
+.features .card-body .card-title{
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+}
+.features .card-body .card-title i{
+    font-size: 25px;
+    color: #222;
+    padding-right: 30px;
+}

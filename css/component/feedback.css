@@ -1,0 +1,49 @@
+.feedback-area{
+    padding-top: 120px;
+}
+.feedback__img{
+    width: auto;
+    margin: 0 auto 10px;
+}
+.feeedback__heading{
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 18px;
+}
+.reviews i{
+    color: #ffc000;
+}
+.review__text{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.logo__sec{
+    padding: 120px 0;
+}
+.logos{
+    transition: all 0s ease 0s;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.img__contant{
+    display: table-cell !important;
+    vertical-align: middle;
+    background: #fcf8ff;
+    height: 130px;
+    width: 170px;
+    cursor: pointer;
+}
+.logo__container img{
+    width:auto;
+    max-width: 80px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    display: block;
+    transition: all .4s ease 0s;;
+}
+.logo__container:hover img{
+    filter: grayscale(0%);
+}

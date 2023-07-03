@@ -1,0 +1,207 @@
+.blog__item1{
+    margin-bottom: 40px;
+}
+.blog__info{
+    padding-top: 30px;
+    text-align: right;
+}
+.blog__tag{
+    padding-bottom: 20px;
+}
+.blog__tag a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #222;
+    font-family: "Roboto",sans-serif;
+}
+.blog__tag .active{
+    color: #8252fa;
+}
+.blog__tag:hover a{
+    color: #8252fa;
+}
+.blog__list li a{
+    font-weight: 300;
+    font-size:  15px;
+    line-height:  20px;
+    font-family: "Roboto",sans-serif;
+    color: #777;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+.blog__list li a:hover{
+    color: #8252fa;
+}
+.blog__list li a i{
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 15px;
+    line-height: 20px;
+}
+.blog__left .blog__item1 .card{
+    border: none;
+    background: transparent;
+}
+.blog__left .blog__item1 .card .card-body{
+    padding: 20px 0 0 0;
+}
+.blog__left .blog__item1 .card .card-body .card-title h2{
+    font-size: 24px;
+    line-height: 36px;
+    color: #222;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+.blog__left .blog__item1 .card .card-body .card-title:hover h2{
+    color: #8252fa;
+}
+
+.blog__right{
+    border: 1px solid #eee;
+    background: #fafaff;
+    padding: 30px;
+}
+
+.input__search{
+    position: relative;
+    border-bottom:1px solid #eeeeee;
+    padding-bottom: 30px;
+}
+.input__search input{
+    position: relative;
+    font-size: 14px;
+    line-height: 29px;
+    width: 100%;
+    font-weight: 300;
+    color: #777;
+    padding-left: 20px;
+    border-radius: 45px;
+    z-index: 0;
+    border: double 2px transparent;
+    background-image: linear-gradient(white,white) , radial-gradient(circle at top left,#8252fa,#eca2f1);
+    background-origin: border-box;
+    background-clip: content-box , border-box;
+    padding: 0;
+    text-indent: 20px;
+}
+.blog__search__bth{
+    position:absolute;
+    right: 18px;
+    top: 5px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    padding: 0;
+}
+.blog__author{
+    margin-top: 30px;
+    text-align: center;
+}
+.auther__name{
+    font-size: 18px;
+    line-height: 20px;
+    color: #222222;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.author__social{
+    padding: 7px 0px 15px;
+}
+.author__social ul li a{
+    color: #222222;
+}
+.popular__post h3{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 8px 0px;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+}
+.popular__post{
+    margin-top: 30px;
+}
+.post__text{
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+}
+.post__text a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+    margin-bottom: 4px;
+    transition: all 0.3s linear;
+}
+.post__text a:hover{
+    color: #8252fa;
+}
+.category__list li{
+    border-bottom: 2px dotted #eee;
+    transition: all 0.3s ease 0s;
+}
+.category__list li a{
+    color: #777;
+}
+.category__list li:hover {
+    border-color: #8252fa;
+}
+.category__list li:hover a{
+    color: #8252fa;
+}
+.newsletter__input i{
+    background: #fff;
+    border-radius: 0px;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 36px;
+    padding: 0px 0px 0px 15px;
+    border: 1px solid #eeeeee;
+    border-right: none;
+}
+.newsletter__input input{
+    font-size: 12px;
+    line-height: 24px;
+    color: #cccccc;
+    border: 1px solid #eeeeee;
+    border-left: 0px;
+    border-radius: 0px;
+}
+.newsletter__input .newsletter__btn{
+    color: #fff;
+    font-size: 12px;
+    line-height: 38px;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0px 24px 0px 24px;
+    border-radius: 0;
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+}
+.list__blog__left li{
+    display: inline-block;
+}
+.list__blog__left li a{
+    display: inline-block;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 0px 13px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease 0s;
+    color: #222222;
+    font-size: 12px;
+}
+.list__blog__left li a:hover{
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    color: #fff;
+}
+.popular__post img{
+    width: 100%;
+}

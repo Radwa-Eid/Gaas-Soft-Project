@@ -1,0 +1,21 @@
+.impress{
+    background-image: url(../../img/ximpress-bg.png.pagespeed.ic.JuVOXag761.png);
+    background-size: cover;
+    padding: 205px 0 302px;
+    margin-bottom: -200px;
+    color: #fff;
+}
+.impress__inner{
+    text-align: center;
+    max-width: 780px;
+    margin: auto;
+}
+.impress__heading{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.features__impress{
+    margin-bottom: 0;
+}

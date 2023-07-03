@@ -1,0 +1,32 @@
+/*Layout Start*/
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+/*Layout End*/
+
+/*Base Start*/
+@import url(./base/base.css);
+/*Base End*
+
+/*Component Start*/
+@import url(./component/headerbtn.css);
+@import url(./component/home.css);
+@import url(./component/homevideo.css);
+@import url(./component/features.css);
+@import url(./component/featurebtn.css);
+@import url(./component/design.css);
+@import url(./component/bigfeatures.css);
+@import url(./component/price.css);
+@import url(./component/pricebtn.css);
+@import url(./component/feedback.css);
+@import url(./component/impress.css);
+@import url(./component/impressbtn.css);
+@import url(./component/exclusive.css);
+@import url(./component/blogcategories.css);
+@import url(./component/blogcards.css);
+@import url(./component/blogdetails.css);
+@import url(./component/map.css);
+/*Component End*/
+
+/*Responsive Start*/
+@import url(./responsive/responsive.css);
+/*Responsive End*/

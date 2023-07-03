@@ -1,0 +1,105 @@
+.design {
+    background-image: url(../../img/xtab-bg.jpg.pagespeed.ic.0upeoiPARY.jpg);
+    padding-top: 290px;
+    background-size: cover;
+}
+
+.design__lists {
+    border-bottom: 1px solid #eda2f0;
+    padding-bottom: 1px;
+    display: flex;
+}
+
+.design__navbar {
+    min-width: 180px;
+    padding: 0 15px;
+    margin-bottom: -1px;
+    background: #fff;
+    margin: 0 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.design__list {
+    padding: 25px 0;
+    text-align: center;
+    line-height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.design__list span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #8252fa;
+}
+
+.design__list h6 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.design__list__active {
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    margin-bottom: -1px;
+}
+
+.design__list__active a {
+    color: #fff;
+}
+
+.design__list__active a span i {
+    color: #fff;
+}
+
+.design__navbar:hover {
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+    margin-bottom: -1px;
+}
+
+.design__navbar:hover a {
+    color: #fff;
+}
+
+.design__navbar:hover a span i {
+    color: #fff;
+}
+
+.design__text {
+    padding-top: 80px;
+}
+
+.design__heading1 {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    ;
+}
+
+.design__heading1::after {
+    height: 1px;
+    width: 50px;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+}
+
+.design__heading {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.design__img img{
+    width: 100%;
+}

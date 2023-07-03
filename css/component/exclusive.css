@@ -1,0 +1,28 @@
+.exclusive{
+    position: relative;
+    background-image: url(../../img/common-banner.png.webp);
+    background-size: cover;
+    min-height: 400px;
+    overflow: hidden;
+}
+.exclusive .container {
+    transform: translateY(150px);
+}
+.exclusive .container .row {
+    margin: 0;
+}
+.exclusive__text a{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 5px;
+}
+.exclusive__text a i{
+    margin-left: 8px;
+    font-size: 12px;
+}
+.exclusive__text h2{
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: bold;
+}

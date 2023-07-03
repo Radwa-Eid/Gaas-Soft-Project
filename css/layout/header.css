@@ -1,0 +1,31 @@
+.header{
+    background: #ffffff;
+    position: relative;
+}
+.header .navbar-brand{
+    margin-right: 30px;
+}
+.header .navbar-nav1{
+    width: 100%;
+    justify-content: center;
+}
+.header .nav-item{
+    margin-right: 45px;
+}
+.header .navbar-nav1 .active a{
+    color: #8252fa ;
+}
+.header .navbar-nav1 .nav-item a:hover{
+    color: #8252fa ;
+}
+.header .nav-link{
+    font-weight: 500;
+    font-size: 12px;
+    line-height:100px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+.header .dropdown-toggle::after{
+    display: none;
+}

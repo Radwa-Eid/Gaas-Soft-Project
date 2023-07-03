@@ -1,0 +1,47 @@
+.bigfeatures{
+    padding: 120px 0;
+}
+.main__tittle{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.bigfeature__heading1::after{
+    width: 0;
+    height: 0;
+}
+.border__shapes{
+    position: relative;
+}
+.bigfeature__img1{
+    margin-left: 95px;
+}
+.bigfeature__text1{
+    margin-left: 190px;
+}
+.border__line{
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    border: 1px dashed #dbdade;
+}
+.bidfeature__shap1{
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -8px;
+}
+.bidfeature__shap2{
+    width: auto;
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    margin-left: -15px;
+}
+.bidfeature__shap3{
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    margin-left: -9px;
+}

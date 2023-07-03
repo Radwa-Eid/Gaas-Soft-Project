@@ -1,0 +1,11 @@
+.impress__btn{
+    background-color: #fff;
+    font-size: 14px;
+    box-shadow: -14.142px 14.142px 20px 0 rgb(0 0 0 / 10%);
+    background: #fff;
+}
+.impress__btn:hover{
+    color: #fff;
+    background: transparent !important;
+    border-color: #fff !important;
+}
